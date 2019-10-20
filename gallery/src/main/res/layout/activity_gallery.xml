@@ -6,4 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".Gallery">
 
+    <GridView
+        android:id="@+id/gallery_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="4"
+        android:verticalSpacing="10dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

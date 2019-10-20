@@ -6,4 +6,5 @@
     <string name="roll_btn_text">Let\'s Roll</string>
     <string name="DiceRolled">Dice Rolled!</string>
     <string name="gallery">相册</string>
+    <string name="thumb">缩略图</string>
 </resources>
