@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dice</string>
+
+    <string name="number">1</string>
+    <string name="roll">Roll</string>
+    <string name="roll_btn_text">Let\'s Roll</string>
+    <string name="DiceRolled">Dice Rolled!</string>
+    <string name="gallery">相册</string>
+</resources>

@@ -5,11 +5,12 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="C:/Develop/gradle-5.6.2" />
+        <option name="gradleHome" value="C:/develop/gradle-5.4.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/gallery" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
