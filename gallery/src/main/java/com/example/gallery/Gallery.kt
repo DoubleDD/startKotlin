@@ -3,7 +3,7 @@ package com.example.gallery
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class gallery : AppCompatActivity() {
+class Gallery : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

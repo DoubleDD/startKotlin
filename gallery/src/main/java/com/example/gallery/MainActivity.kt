@@ -1,5 +1,6 @@
 package com.example.gallery
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
@@ -19,6 +20,21 @@ class MainActivity : AppCompatActivity() {
             rollDice()
         }
         diceImage = findViewById(R.id.dice_image)
+
+        val galleryButton: Button = findViewById(R.id.gallery_button)
+        galleryButton.setOnClickListener {
+            openGallery()
+        }
+
+    }
+
+    /**
+     * 打开相册
+     */
+    private fun openGallery() {
+        val intent = Intent(this, Gallery::class.java).apply { }
+
+        startActivity(intent)
     }
 
     private fun rollDice() {
